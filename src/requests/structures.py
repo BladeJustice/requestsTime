@@ -46,7 +46,7 @@ class CaseInsensitiveDict(MutableMapping[str, _VT], Generic[_VT]):
 
     _store: OrderedDict[str, tuple[str, _VT]]
 
-    def __init__(
+    def __init__( 
         self,
         data: Mapping[str, _VT] | Iterable[tuple[str, _VT]] | None = None,
         **kwargs: _VT,

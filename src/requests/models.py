@@ -1,6 +1,6 @@
 """
 requests.models
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~  
 
 This module contains the primary objects that power Requests.
 """
